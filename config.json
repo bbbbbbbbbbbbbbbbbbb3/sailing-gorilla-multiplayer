@@ -1,0 +1,28 @@
+{
+  "project": "Sailing Gorilla Multiplayer",
+  "default_vr_mode": "Desktop",
+  "server_port": 5000,
+  "npc_count": 4,
+  "treasure_count": 10,
+  "movement": {
+    "swing_scale": 0.015,
+    "lateral_scale": 0.009,
+    "vertical_scale": 0.007,
+    "thrust": 6.0,
+    "impulse_force": 7.0,
+    "air_control_factor": 0.35,
+    "max_speed": 25.0,
+    "gravity": -20.0
+  },
+  "network": {
+    "enabled": true,
+    "protocol": "tcp",
+    "send_interval_ms": 100
+  },
+  "ui": {
+    "menu_url": "https://example.com",
+    "default_menu_options": ["Singleplayer", "Host (manual server)", "Join (connect)", "Local (no multiplayer)"]
+  },
+  "notes": "This config is for convenience/documentation. The running game reads hardcoded values; integrate reading this file into the Java code if you want runtime config.",
+  "repo": "https://github.com/bbbbbbbbbbbbbbbbbbb3/sailing-gorilla-multiplayer"
+}
